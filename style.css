@@ -82,6 +82,9 @@ body {
   padding:20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+p{
+  color: white;
+}
 
 footer{
   background-color:  #c26100;
