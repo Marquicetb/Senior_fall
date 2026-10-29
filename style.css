@@ -2,7 +2,6 @@ body {
   margin: 0;
   background-image: linear-gradient(to bottom,#302e57 ,#5c56ae,pink, #e67a00);
 }
-
 .navbar{
   width:100%;
   
@@ -23,9 +22,9 @@ body {
 
 .button {
   border: none;
-  background-color: #000633;
-  color: #fbd05b;
-  border: 2px solid #00228a;
+  background-color: #242343;
+  color: #ffffff;
+  border: 2px solid #1f1d35;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
