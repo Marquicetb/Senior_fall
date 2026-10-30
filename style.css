@@ -1,11 +1,21 @@
 body {
   margin: 0;
-  background-image: linear-gradient(to bottom,#302e57 ,#5c56ae,pink, #e67a00);
+  background: linear-gradient(
+    to bottom,
+    #302e57 0%,
+    #5c56ae 30%,
+    pink 70%,
+    #e67a00 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
-.navbar{
-  width:100%;
-  
+
+.navbar {
+  width: 100%;
 }
+
 .Nav-Buttons {
   list-style: none;
   display: flex;
@@ -40,31 +50,35 @@ body {
   color: #ffebb3;
   border: 2px solid #8aa7ff;
 }
-.page{
-  min-width: 1200px,90%;
+
+.page {
+  width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 30px 20px;
+  background: transparent;
+  box-shadow: none;
 }
 
-.port{
+.port {
   display: grid;
   grid-template-columns: 320px 1fr;
-  gap:24px;
+  gap: 24px;
   align-items: stretch;
   margin-bottom: 30px;
 }
-.Mainimg{
+
+.Mainimg {
   background-color: rgba(255,255,255,0.08);
-  border:3px solid#000;
-  padding:20px;
+  border: 3px solid #000;
+  padding: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
-.profile-image{
+
+.profile-image {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.profile-image{
   width: 100%;
   max-width: 280px;
   height: 320px;
@@ -72,22 +86,19 @@ body {
   border-radius: 10px;
   border: 3px solid #030042;
 }
-.about-panel h2{
+
+.about-panel h2 {
   margin-top: 0;
-  color: #ffff; 
+  color: #fff;
 }
-.page{
-   background-color: rgba(255,255,255,0.08);
-  padding:20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-p{
+
+p {
   color: white;
 }
 
-footer{
-  background-color:  #c26100;
+footer {
+  background-color: #c26100;
   color: #fbd05b;
   text-align: center;
-  flex-direction: column;
+  padding: 20px;
 }
