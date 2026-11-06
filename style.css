@@ -107,3 +107,14 @@ footer {
   padding: 20px;
   margin: auto;
 }
+a.lfoot :link {
+  color: #fbd05b;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.lfoot :hover {
+  color: #ffc423;
+  background-color: transparent;
+  text-decoration: underline;
+}
