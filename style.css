@@ -123,3 +123,11 @@ a.lfoot :hover {
   list-style: none;
   padding: 0;
 }
+
+.portfolio-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 24px 0 0;
+}
