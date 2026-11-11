@@ -108,6 +108,18 @@ footer {
   padding: 20px;
   margin: auto;
 }
+
+.email-link,
+.email-link:visited {
+  color: #fff;
+}
+
+.email-link:hover,
+.email-link:focus-visible {
+  color: #fff;
+  text-decoration: underline;
+}
+
 a.lfoot :link {
   color: #fbd05b;
   background-color: transparent;
