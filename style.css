@@ -155,18 +155,6 @@ footer {
   text-decoration: underline;
 }
 
-a.lfoot :link {
-  color: #fbd05b;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a.lfoot :hover {
-  color: #ffc423;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
 .port ul{
   list-style: none;
   padding: 0;
